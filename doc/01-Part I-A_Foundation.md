@@ -47,3 +47,8 @@
 - 사실, Stallman과 Torvalds는 공생하는 사이이다. 
 	- licensing model은 이 model을 구동하기 위한 좋은 software가 없이는 성공할 수 없다. 
 	- software도 이를 가능하게하는 licensing model이 없이는 성공할 수 없다. 
+
+### The Open Source Development Model
+- 사람들이 open source에 관하 이야기할 때, 두가지 다른 의미가 있다.
+	- licensing model과 development model이다. 
+	- 이 책의 대부분은 open source software license를 포함하는 licensing model에 대해 설명한다. 
