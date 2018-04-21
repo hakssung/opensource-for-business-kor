@@ -14,3 +14,12 @@
 -   Copyleft는  저작권법(Stallman이  도덕적으로  반대하는)의  힘을  이용해  다른  사람들이  저작권으로  인한  이익을  포기하도록  하는 system이다.
     -   free software license는  저작권이  있는  저작물의  공유  및  수정  허락을  요구하는  조건으로  모든  사람에게  광범위한  저작권  사용  허가를  부여한다.
     -   이는 free software뿐만아니라 permissive term하에  허가된 software를  포함하는  광범위한 open source 개념과는  상당히  다르다.
+
+- open source 운동 초기에, free software 철학의 반기업적인 구호는 open source의 도입을 방해하였고, 이에 몇몇 평화주의자들이 free software 지지자와 기업의 이익을 조화시키기 위해 모였다. 
+	- 이로 인해 OSI (Open Source Initiative)가 탄생하였다. 
+
+- open source에 처음 접근하는 대부분의 사람들은 copyleft가 사람들에게 software의 무료 기부를 요구한다고 생각한다. 
+	- 이는 free software 운동의 구호는 반기업적이고 반자본주의 경향이 있다는 점을 감안하면 이해할만하다.  
+	-  그러나, 이 선입견이 정확한 것은 아니다. 
+	- 현실에서는 (Linux와 Android Platform을 사용하는) 주요 소비자 전자제품 제조업체는 말할것도 없고, Red Hat, MontaVista Software와 같은 성공적인 회사들이 존재한다. 
+
