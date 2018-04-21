@@ -23,3 +23,27 @@
 	-  그러나, 이 선입견이 정확한 것은 아니다. 
 	- 현실에서는 (Linux와 Android Platform을 사용하는) 주요 소비자 전자제품 제조업체는 말할것도 없고, Red Hat, MontaVista Software와 같은 성공적인 회사들이 존재한다. 
 
+- 사실, "free software"에서 free라는 단어는 무료가 아니라 자유를 말한다. 
+	- free software는 금전적인 목적으로 software 사본을 판매하는 것을 금지하지 않는다. 
+	- 이러한 noncommercial 제한은 open source licensing과 대조적이다. 
+	- 그럼에도 불구하고, free software에만 licensing 사업을 기반으로 하는 것은 비현실적이다. 
+- 사업적인 관점에서 볼때, free software는 모두가 사용하는 infrastructure software에 훌륭한 model이며, specialized application에는 좋지 않다. 
+	- 가장 인기있는 open source software가 전자상거래를 위한 LAMP stack이라는 것은 우연이 아니다.
+		- 이를 이용하는 사람들은 Web을 통해 물건을 팔아 돈을 버는 것이지, Web에 접근하는 것으로 돈을 버는 것이 아니다. 
+- 지적 재산의 주장이 없는 free infrastructure의 존재는 번영을 촉진시키는 반면, 지적 재산이 완전히 없는 것은 번영을 실질적으로 방해한다. 
+	- 공적 및 사적 재화의 올바른 균형을 찾는 것이 혁신을 일으킨다. 
+	- 기술 사업이 지난 20년간 free software를 도입해왔기때문에 이런 일이 일어났다. 
+
+- Richard Stallman은 GNU project와 free software 운동의 창시자이다. 
+	- Stallman은 GPL의 작가이다. 
+	- Stallman은 programmer들은 보상이나 이익에 의해서가 아니라, 그들의 평판을 높이고, community에 선행을 하는 것에 의해 동기 부여를 받아야 한다고 믿고 있다. 
+
+- 만약 한 사람이 Stallman의 free software 이론과 반대되는 것을 구현한다면, 그것은 아마도 Linus Tovalds일 것이다. 
+	- Linus Torvalds는 1996년 헬싱키 대학의 학생이었을때 original Linux kernel을 작성했고, 이후로 Linux kernel 기술 혁신에 참여했다. 
+	- 현재 Torvalds는 Linux Foundation (www.kernel.org)에 의해 공개되고 있는 kernel의 방향에 대한 가이드를 제공하고 있다. 
+	- Torvalds는 free software 이데올로기의 지지자가 아니며 자유롭게 이용할 수 있는 software에 대한 지지자이다. 
+	- 그는 때때로 Stallman 캠프의 사람들과 사이가 틀어졌다. 그는 정치적 지지자라기 보다는 기술자이다. 
+
+- 사실, Stallman과 Torvalds는 공생하는 사이이다. 
+	- licensing model은 이 model을 구동하기 위한 좋은 software가 없이는 성공할 수 없다. 
+	- software도 이를 가능하게하는 licensing model이 없이는 성공할 수 없다. 
