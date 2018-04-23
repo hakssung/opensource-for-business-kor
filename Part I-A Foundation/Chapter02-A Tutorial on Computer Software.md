@@ -72,7 +72,41 @@ am the One.\n")};return 0;}
 
 
 ### Building, Linking, and Packaging
+- 실제 대부분의 code는 위의 예제보다 훨씬 복잡하다. 
+	- programming의 실제 세계에서 우리의 작은 예제는 거의 쓸모 없다. 
+	- 그러나, code은 작은 bit라도 제대로 결합되면 유용할 수 있다. 
+	- 예를 들어, 숫자를 더하거나 제곱근을 찾는 code snippet은 필수적일 수 있다.
+	- 실제 세계에서의 program은 이 code bit를 반복해서 사용해야 할 수 있고, programmer는 한번만 작성해놓고 쓰기를 원한다. 
+	- 이 점이 building과 packaging이 필요한 부분이다. 
 
+- 물론, 오늘날 제곱근을 찾기 위한 routine을 작성하기를 열망하는 programmer는 거의 없다. 왜냐하면 이미 다른 사람들이 그러한 routine을 작성했기 때문이다. 
+	- 따라서, 현실세계에서는 programmer들이 기존의 routine을 재사용할 수 있도록 programm을 작성하는 기술이 있다. 
+	- 기존의 제곱근 routine은 이미 테스트가 되었으므로 새롭게 작성한 routine보다 더 안정적이다. 
+	- 이러한 기존 code routine을 library라고 부른다. 
+	- library는 계약서에서 '정의'와 유사하다. 
+	- 변호사가 모든 reference point마다 전체 정의를 다시 만들기보다는 정의된 용어를 참조하는 것 처럼, programmer는 잘 정의된, 공통 작업을 수행하기 위해 library routine을 사용한다. 
+
+- programmer가 program을 build할때, 먼저 code를 source code form으로 작성하고, 이를 object code form으로 compile한다. 
+	- 그런 다음, linker라는 program을 사용하여 object를 library routine과 link한다. 
+	- 이렇게 한다면, library를 위한 source code가 필요 없다. 
+
+- 잘 작성된 library는 대개 programmer에게는 black box이다. 
+	- 즉, programmer는 box 안의 내용을 알 필요가 없으며, 들어가는 내용과 나오는 내용만 알면 된다. (
+	- 이 information은 interface 정의 또는 API (Application Program Interface)라고도 한다. 
+
+- object들이 모두 엮이고 나면, executable program이라고 한다. 
+	- executable program은 실행에 필요한 모든 부분을 가지고 있다. 
+
+- programmer가 library routine에서 bug를 찾았거나, 그가 작성한 code에서 작동하지 않는 use case를 발견했다고 가정하자. 
+	- 예를 들어, library가 양력에서 날짜를 선택한다고 가정하지만, programmer는 음력에서 날짜를 선택하려고 한다. 
+	- library routine은 programmer의 의도대로 동작하지 않으므로, programmer는 이를 개선하기 위해 source code에 access해야 한다. compile된 code를 변경하는 것은 불가능하다. 
+	- programmer가 code를 변경하려면, source code로 돌아가고, 변경하고, source code를 recompile하고, program을 relink해야 한다. 
+
+- 이것이 source code에 대한 access가 중요한 이유이다. 
+	- source code 없이 bug를 수정할 수 없다. 
+	- source code 없이 변경하거나 개선할 수 없다. 
+	- object code로 수행할 수 있는 모든 것은 larger program으로 build하는 것이고, executable로 할 수 있는 모든 것은 실행하는 것이다. 
+	
 ### JavaScript
 
 ### PERL, Python, PHP, and Other Scripting Languages
