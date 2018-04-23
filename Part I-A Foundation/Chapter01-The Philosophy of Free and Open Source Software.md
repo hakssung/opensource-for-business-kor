@@ -141,30 +141,38 @@
 - 반대로, GPL을 위반하게 proprietary와 GPL code를 하나의 single program으로 결합하는 것은 license incompatability이다. (즉, 두 term이 충돌하고 동시에 만족될 수 없는 상황)
 
 ### The Philosophy of “Open”
+- 지난 수십년 동안 open source software의 성공을 기반으로 openness의 광범위한 개념이 개발되었다. 
+	- "open"이라는 개념이 기술 산업에서 business practice를 어떻게 바꿔놓았는지 이해하는 것이 중요하다. 
 
+- open을 한가지로 정의할 수는 없으며, 많은 것들이 open이라고 주장한다. 
+	- 그러나, 전반적으로 open paradigm은 외부의 참여를 추구한다. 
+	- open model은 또한 투명성이 특징이며, 장점에 기반한 참여에 중점을 둔다. 
 
-## Chapter 2 A Tutorial on Computer Software
+- 10년전인 2007년에 출시된 Apple iOS platform의 혁신적인 특성을 고려해보자. 
+	- 이 platform은 "open"이라고 불렸지만, open source software는 아니다.
+	- 누구나 무료 개발 tool을 이용하여 이 platform에서 개발할 수 있다는 의미에서 "open"이다. 
+	- open source 지지자들은 이것이 진정한 open technology 환경이 아니라는 것을 지적할 것이다. 
+	- 개발자는 developer agreement에 서명해야 하고, App Store를 통해서만 판매하고, 많은 platform 규칙을 따라야만했다. 
+	- 그러나, 당시, Apple의 움직임은 극적이고, 혁명적이고, 거의 사람들이 예상하지 못한 방식의 "open"이었다. 
 
-### What Is the “Source” of Open Source?
+- 2008년, Android platform이 소개되었다.
+	- 이 platform은 openness의 개념을 확장시켰다.
+	- open soruce software 기반이었고, 많은 제조사에게 제공되었으며, 여러 app store가 경쟁할 수 있게 하였다. 
 
-### Building, Linking, and Packaging
+- 한편, Linux computer OS는 꽤 오랫동안 성장해왔다. 
+	- 수년 동안, Linux는 server 시장과 embedded system을 능가하는 시장 진입을 하지 못했다. desktop에서 특히 눈에 띄지 않았다. 
+	- 진정한 open platform에 가장 가까왔지만, 이러한 very openness는 business model로서는 매력적이지 않은 토대였다는 것을 의미했다. 
 
-### JavaScript
+- Red Hat은 1999년에 공개되었다. 
+	- 그 후, Linux 배포판 시장은 쇠퇴하였다.
+	- service와 support를 주기반으로 하는 business model에 내재된 어려움은 시장에 많은 참여자들이 설 자리가 많지 않다는 것을 의미한다. 
+	- 하지만, Red Hat은 계속해서 번창하는 사업이며, e-commerce 경제는 그 사업에 거의 전적으로 의존한다.
 
-### PERL, Python, PHP, and Other Scripting Languages
+- 2010년, open infrastructure initiative를 지원하기 위해 한데 묶는 것이 산업계에 매우 인기가 있었다. 
+	- IAAS (Infrastructure As A Service)를 제공하는 open source project인 OpenStack은 2010년에 시작되어 엄청난 인기를 얻었다.
+	- OpenStack은 Dell, EMC, Oracle, HP, AT&T, Red Hat, IBM, Canonical, Yahoo, Rackspace, Intel, Cisco와 같은 거대 기술 기업들이 지원한다. 
+	- 이러한 기술 기업들이 open source project에 그렇게 빨리, 기꺼이 협력한다는 생각은 10년 전만해도 상상도 할 수 없었다. 
 
-### Layers of Computing
-
-### What Is an Operating System?
-
-### What Is an Application?
-
-### Dynamic Linking and Static Linking
-
-### Monoliths and Loadable Kernel Modules
-
-### Header Files
-
-### Containers
-
-\
+- open과 closed간의 이데올로기 전쟁이 있었던한, open이 이긴것이다. 
+	- 그러나, 그 이데올로기가 사실이라면, "open"이라는 idea는 항상 변화하고 확장한다.
+	- 의심할 여지 없이, business의 미래를 형성하는데 도움이 되는 놀라움을 계속 제공할 것이다. 
