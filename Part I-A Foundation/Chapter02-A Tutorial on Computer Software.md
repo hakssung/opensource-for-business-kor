@@ -109,6 +109,16 @@ am the One.\n")};return 0;}
 	
 ### JavaScript
 
+이 언어는 현재 web 개발에 중요하며 여러 이유로 nonprogrammer들 사이에 많은 혼란을 야기하기 때문에 자체 section을 가질 자격이 있다. 
+- JavaScript는 Java가 아니다. 
+	- Java는 web 배포에서 널리 사용되는 programming language로 compile이 된다. 
+	- 반면, JavaScript는 scripting language로 compiled form이 없고, web browser 내에서 program을 실행한다. 
+	- e-commerce seller로부터 구두를 주문한다고 가정해보자. 
+		- JavaSCript code는 입력을 검사하고, 필수 입력란을 작성하도록 체크한다. 
+		- 어떻게 web page와 interact하게 하는지 지시하는 code는 대개 JavaScript일 것이다. 
+- JavaScript와 관련하여 중요한 점은 HTML과 마찬가지로 JavaScript가 source code 형태로 사용자의 browser에 전달되고, 사용자의 computer에서 실행된다는 것이다. 
+	- 이 특성은 open source licensing에 큰 차이를 만든다. 
+
 ### PERL, Python, PHP, and Other Scripting Languages
 
 ### Layers of Computing
