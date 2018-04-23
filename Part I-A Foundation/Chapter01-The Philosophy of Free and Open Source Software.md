@@ -74,7 +74,7 @@
 
 ### The Free Software Defnition and the Open Source Defnition
 - free software 순정주의자 (Stallman과 같은)와 기술적 실용주의자 (Torvalds와 같은) 사이의 철학적 차이점을 고려할때, free software와 open source software가 경쟁적인 방식으로 그들의 지지자에 의해 정의되는 것은 놀랄 일이 아니다. 
-- 
+
 #### The Free Software Defnition: The Four Essential Freedoms
   0. 원하는 목적에 따라 program을 실행할 수 있는 freedom
   1.  program 동작 방식을 연구하고 원하는대로 computing을 수행할 수 있도록 변경할 수 있는 freedom
@@ -107,6 +107,38 @@
 	- 그러나, 오늘날 OSI는 "license 확산"과 "무의미한 license"를 막기 위해 거의 새로운 license를 승인하지 않는다. : major license의 variation (단지 한 두 project에서 사용) 
 
 ### It’s Not a Virus
+- open source licensing에 대한 토론에서 바이러스(viral)라는 단어를 제거하는 것은 오래 전에 이루어졌어야 한다. 
+	- 왜냐하면, 이 단어는 open source licencing 원칙에 대해 이해하는 것을 왜곡하고 제한하기 때문이다. 
+	- 이에 대하여 책임이 있는 것은 대부분 변호사들이다. 
+		- 변호사들이 copyleft license에 대해 설명할때, 종종 바이러스(viral)라는 단어를 사용한다. 
+		- 불행하게도 그 단어는 부정확하다. 
+
+- 올바른 용어에 대한 다양한 선택이 있다. 
+	- free software
+	- copyleft
+	- 상호주의 (reciprocal)
+	- 유전 (hereditary)
+
+- 최선의 선택은 copyleft이다. 
+	- copyleft license는, software binary 배포의 조건으로, 배포자가 동일한 license term에 따라 corresponding source code의 공개를 요구하는 license이다. 
+	- copyleft license는 software의 저작권에 달라붙는다. ; 얼마나 많은 downstream 배포가 일어날지라도 license term은 동일하게 유지된다. 
+
+- Copyleft license는 GPL, LGPL, MPL, EPL 등을 포함한다.
+	- 그러나, 이 개념을 설명하기 위해 바이러스(viral)라는 단어를 사용하는 것은 오해의 소지가 있고, 불필요한 두려움을 유발한다. 
+	- copyleft license에 관한 가중 큰 오해는 바로 이 단어의 사용때문이다. : 바이러스 (viral)
+
+- 하나의 executable program내에서 GPL code와 다른 code를 결합하는 것을 흔히 "derivative work"을 생성한다고 한다. 
+	- 이는 GPL이 특정 program내에 GPL code가 있는 경우, 해당 program내 전체 code를 GPL로 공개해야한다고 말하기 때문이다. 그렇지 않으면 GPL 위반이다.
+	- 기업들은 GPL과 proprietary code가 하나의 program으로 결합하면 GPL licensing term이 proprietary code를 "감염"시킬 것이고, proprietary code는 GPL에 따라 자동으로 relicense될 것이라고 우려하고 있다. 
+	- 그러나 이것은 copyleft가 동작하는 방식이 아니다. 
+
+- 사실, 회사가 GPL을 위반하는 방식으로 GPL과 proprietary code를 결합하는 경우, 그 결과는 GPL을 위반하는 것이다. 그 이상도 이하도 아니다. 
+	- 법적으로 GPL code의 author는 GPL 위반에 대해 remedy를 가질 수 있다. 
+	- 그리고, 그 결과 license가 종료되었다면, author는 GPL software의 unlicesed use에 대한 remedy를 가질 수 있다. 
+	- 이 둘 모두, 본질적으로, 저작권 침해 claim이다. 
+	- 저작권 침해 claim에 대한 법적 remedy는 damage (돈)와 injuction (GPL code 사용 중지)이다. 
+	- 실제로, proprietary code를 감염시키고, licensing term을 변경하는 GPL의 법적 mechanism은 없다. 
+- 반대로, GPL을 위반하게 proprietary와 GPL code를 하나의 single program으로 결합하는 것은 license incompatability이다. (즉, 두 term이 충돌하고 동시에 만족될 수 없는 상황)
 
 ### The Philosophy of “Open”
 
