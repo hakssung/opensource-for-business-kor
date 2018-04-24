@@ -120,8 +120,22 @@ am the One.\n")};return 0;}
 	- 이 특성은 open source licensing에 큰 차이를 만든다. 
 
 ### PERL, Python, PHP, and Other Scripting Languages
+PERL, Python 및 PHP와 같이 일반적으로 사용되는 다른 유명한 scripting 언어가 있다. 
+- scripting 언어는 high-level 언어이다. 즉, 소량의 code가 많은 일을 할 수 있다. 
+	- JavaScript와 마찬가지로 script 언어는 source code form으로 실행된다. 
+	- 하지만, 주로 사용자의 browser가 아니라 "back end"에서 실행된다. 
+- Scripting 언어는 일반적으로 interpreter, virtual machine 또는 language engine에서 실행된다. 
+	- script를 실행하려면, user system에 interpreter가 설치되어 있어야 한다. 
+	- inerpreter가 script를 처리하는 방법을 알고 있다. 
 
 ### Layers of Computing
+- 현대 computer processing은 여러 layer에서 발생한다. 
+	- 이런 측면에서 computing은 지난 수십년 동안 엄청나게 변화했다. 
+- 예전에는 programmer가 single processor에서 실행되는 single program을 작성했다.
+	- 당시에는 모든 개별 기능이 computer processor내 부족한 시간과 공간을 차지했다. 
+	- 오늘날 processor는 더 크고 빠르며 동시에 많은 program을 처리할 수 있고, 그래서, computing은 더욱 module화 되었다. 
+	- desktop computer와 같은 오늘날의 computer system은 일반적으로 그림 2.1과 같다. 
+
 
 ### What Is an Operating System?
 
