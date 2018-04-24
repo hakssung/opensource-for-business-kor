@@ -136,6 +136,8 @@ PERL, Python 및 PHP와 같이 일반적으로 사용되는 다른 유명한 scr
 	- 오늘날 processor는 더 크고 빠르며 동시에 많은 program을 처리할 수 있고, 그래서, computing은 더욱 module화 되었다. 
 	- desktop computer와 같은 오늘날의 computer system은 일반적으로 그림 2.1과 같다. 
 
+![enter image description here](https://github.com/hakssung/opensource-for-business-kor/blob/master/img/fig-2.1.png)
+Figure 2.1 Computer system architecture
 
 ### What Is an Operating System?
 
