@@ -74,10 +74,20 @@ Open source license는 주로 두종류의 patent provision을 포함.
 ## GPL
 
 ### GPL Versions
+- GPL version 2 only
+- GPL version 2 or later
+	- "or later"는 권리 부여가 아닌 condition만 부여한다고 보는게 맞다. 
+	- 즉, GPL-2.0 or later로 code를 release한 author가 이를 GPL-3.0으로 사용하는 recipient에게 patent grant를 해야하는 것은 아니다. 
 
 ### Reading GPL Version 2
+- GPL의 main term은 세 파트로 나뉨
+	1. 수정하지 않은 source code의 배포 
+	2. 수정하지 않은 binary의 배포
+	3. 수정한 code의 배포
 
 ### “Special Exceptions”
+- GCC Runtime Library  Exception : Broad exception that removes all requirements of GPL for use of runtime libraries used via any “Eligible Compilation Process.”
+- Classpath Exception : Allows linking to proprietary code. Note that this allows any kind of link, but classpath files are likely to be linked dynamically.
 
 ## The Lesser General Public License (LGPL)
 
