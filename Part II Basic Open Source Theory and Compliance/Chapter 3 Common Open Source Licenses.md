@@ -62,6 +62,12 @@ Open source license는 주로 두종류의 patent provision을 포함.
 - author가 code를 open source license로 release할때, 권리 부여는 자동적으로 모든 recipient에게 되는 것임
 ![enter image description here](https://github.com/hakssung/opensource-for-business-kor/blob/master/img/fig-3.1.png)
 
+- direct licensing model의 몇가지 추론
+	- distributor가 open source license를 위반해서 권리를 잃게되어도 downstream recipient는 잃지 않음
+	- 기업 인수 합병 시, Buyer company가 Target company 인수 시, Target company가 사용한 open source code를 받게 될 때, Buyer는 이 code에 대한 license를 Target으로부터 받는 것이 아니라 author로부터 direct로 받는 것이다. 
+- open source license는 author로부터 모든 recipient에게 가는 것이기때문에 절대 transfer되는 것이 아니다. 
+	- 반로, Proprietary license는 하나의 licensee로부터 다른 licensee에게 transfer되야한다. (M&A시 문제가 될 수 있다.)
+
 ## Common Open Source Licenses
 
 
