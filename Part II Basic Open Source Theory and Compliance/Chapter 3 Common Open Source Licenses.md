@@ -56,6 +56,10 @@ Open source license는 주로 두종류의 patent provision을 포함.
 	- condition만 있고, obligation은 없다. 
 
 ## Direct Licensing
+- Open source license는 direct licensing model이다. 
+	- further sublicense를 부여할 권리가 부여되지 않음
+	- 대신, code의 재배포를 허용
+- author가 code를 open source license로 release할때, 권리 부여는 자동적으로 모든 recipient에게 되는 것임
 
 
 ## Common Open Source Licenses
