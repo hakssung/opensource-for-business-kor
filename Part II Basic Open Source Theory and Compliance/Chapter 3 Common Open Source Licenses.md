@@ -60,7 +60,7 @@ Open source license는 주로 두종류의 patent provision을 포함.
 	- further sublicense를 부여할 권리가 부여되지 않음
 	- 대신, code의 재배포를 허용
 - author가 code를 open source license로 release할때, 권리 부여는 자동적으로 모든 recipient에게 되는 것임
-
+![enter image description here](https://github.com/hakssung/opensource-for-business-kor/blob/master/img/fig-3.1.png)
 
 ## Common Open Source Licenses
 
