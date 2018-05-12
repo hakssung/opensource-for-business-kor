@@ -163,6 +163,14 @@ Open source license는 주로 두종류의 patent provision을 포함.
 
 
 ### OpenSSL
+- OpenSSL : secure socket layer toolkit의 open source implementation
+- OpenSSL license : BSD-style permissive license로 보이지만, 혼란을 야기하는 문장도 포함
+
+> The OpenSSL toolkit stays under a dual license, i.e., both the conditions of the OpenSSL License and the original SSLeay license apply to the toolkit.
+
+- 여기서의 "dual license"는 두 license가 동시에 code에 적용된다는 표현을 위해 사용되었는데, 이는 일반적이지 않은 사용이다. 
+
+- GPL과의 compatibility? 
 
 ## Content Licenses
 
