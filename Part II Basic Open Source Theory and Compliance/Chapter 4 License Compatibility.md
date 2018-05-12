@@ -140,6 +140,19 @@ Figure 4-5는 horizontal incompatibility로 발생할 수 있는 문제를 보�
 	- 그러나, 그러한 선택이 분명한 생각없이 이뤄진다면, licensing이 역효과를 일으키고, 단지 문제만 만들어낼 수 있다. 
 
 ## Apache 2 and GPL 2
+- 위에서 Apache-2.0과 GPL-2.0은 imcompatible하다는 점에 주목했다. 
+	- permissive license는 일반적으로 다른 open source license와 compatible하다. 
+	- 그러나, Apache-2.0이 release된 후, FSF는 Apache-2.0이 GPL-2.0과 incompatible하다는 입장을 취했다. 
+
+- Apache Foundation posted:
+	- FSF의 GPL에 대한 입장을 ASF가 이해한 바는 다음과 같다. : 
+		- explicit patent license를 부여하는 것은 implicit patent license의 무효화를 야기한다. 
+		- explicit patent license를 
+		- revoking that explicit patent license causes the person who is claiming infringement of their patent to lose the patent rights that would otherwise have been attained via the GPL’s implicit rights; 
+		- patent right의 상실은 사용 right의 상실을 의미한다. 
+		- GPL-2.0 section 7은 patent owner가 GPL work내 patent 침해 주장하고, 3rd party가 다른 사람들이 배포하는 것에 restriction을 가할때까지 (즉, 판결 또는 금지 명령이 work에 가해질때까지) 계속해서 GPL로 그 work의 배포를 허용한다. 
+		- GPL-2.0 section 6에서는 “You may not impose any further restrictions on the recipients’ exercise of the rights granted herein” 라고 하는데, 이는 patent에는 해당하지 않는다. ("rights granted herein"는 오직 copyright만이기 때문)
+
 
 ## License Proliferation
 
