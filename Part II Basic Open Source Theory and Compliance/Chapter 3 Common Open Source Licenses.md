@@ -106,6 +106,29 @@ Open source license는 주로 두종류의 patent provision을 포함.
 
 ### Corporate-Style (or “Weak”) Copyleft Licenses
 
+여기서는 copyleft principle을 적용하면서도 licensing attorney들에게 친숙한 형태로 작성된 license들이다. 
+- EPL
+- MPL
+- CDDL
+
+- MPL
+	- 2002년 Netscape web browser에 적용
+	- 2012년 MPL-2.0으로 개정
+
+- IBM Public License는 MPL-1.0직후 작성
+	- 이후 CPL, EPL로 대체됨
+	- EPL은 주로 Eclipse 개발 환경에서 사용
+
+- Sun Industry Standards Source License
+	- Sun Microsystems가 공개
+	- 2005년 CDDL (Common Development and Distribution License)로 대체
+
+- 이러한 License들은 weak copyleft 성격임
+	- proprietary product에 결합된 상태로 code library가 release되는 것을 허용
+	- source code가 open source license 로 공개된다면 binary는 proprietary term으로의 relicensing 허용
+		- 따라서, 어떤 의미에서는 copyleft는 source coded에만 적용
+- 이 license들은 모두 patent license와 defensive termination provision을 명시적으로 포함함
+
 ## Permissive Licenses
 
 ### Apache
