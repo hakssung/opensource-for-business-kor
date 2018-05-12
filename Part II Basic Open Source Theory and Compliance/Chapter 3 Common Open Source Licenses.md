@@ -146,6 +146,19 @@ Open source license는 주로 두종류의 patent provision을 포함.
 
 ### Apache
 
+- Apache-1.0 : "advertising requirement" 땜누에 deprecated됨
+> “All advertising materials mentioning features or use of this software must display the following acknowledgment: This product includes software developed by the Apache Group for use in the Apache HTTP server project (http://www.apache.org/).”
+	- 이 요구사항은 unworkable (실행불가능)하고, GPL과 inconsistent할 수 있음
+
+- 2000년 Apache-1.1 released. 
+	- advertising clause 제거
+	- BSD나 MIT license와 매우 유사
+
+- 2004년 Apache-2.0 released
+	- 표준화되어 작성patent
+	- patent provision 추가
+	- Google Android project를 포함하여 많은 open source project를 위한 template license가 됨
+
 ## Miscellaneous Licenses
 
 
