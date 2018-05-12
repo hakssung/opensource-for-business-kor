@@ -1,3 +1,4 @@
+
 # Chapter 3 Common Open Source Licenses
 
 이해해야할 Licnese들:
@@ -90,6 +91,18 @@ Open source license는 주로 두종류의 patent provision을 포함.
 - Classpath Exception : Allows linking to proprietary code. Note that this allows any kind of link, but classpath files are likely to be linked dynamically.
 
 ## The Lesser General Public License (LGPL)
+
+- FSF는 LGPL이 GPL보다 사용자의 자유를 보장하지 않기 때문에 LGPL의 사용을 권장하지 않는다. 
+	- LGPL은 필요할때만 사용해야한다고 믿는다. 
+	- GNU Readline과 같이 고유한 기능을 제공하는 것은 GPL로 하면 community 확산에 도움이 됨
+	- 다른 경우라면 오히려 역효과가 생겨서 code가 사용되지 않을 수도 있음
+
+- LGPL은 이해하기 어려운 license중 하나이다. 
+	- 회사들은 "dynamically linked library" 형태로 LGPL library를 사용하지만, 원문에는 "dynamic linking"에 대해 명확히 언급되지 않았다. 
+
+- LGPL은 본질적으로 GPL + additional permission이다. 
+	- LGPL library를 proprietary application과의 integration을 허용
+	- LGPL-3.0에서는 GPL의 appendum으로 작성됨 
 
 ### Corporate-Style (or “Weak”) Copyleft Licenses
 
