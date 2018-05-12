@@ -173,11 +173,37 @@ Open source license는 주로 두종류의 patent provision을 포함.
 - GPL과의 compatibility? 
 
 ## Content Licenses
+- Software package 내에는 non-software material이 다수 포함된다. 
+	- bitmapped image (icon 등)
+	- music file
+	- picture file (GIF, JPEG 등)
+	- text file
+- 이들을 content라고도 함
+- software가 open source 일때, 이러한 material을 위한 동등한 non-software license가 있는 것이 유용함
+
+-  가장 일반적인 content용 license
+	- GNU Free Documentation License
+	- Creative Commons license
+
+- GNU Free Documentation License
+	- FSF가 GPL과 동일한 목적으로 manual, textboot 등을 위해 만듬
+	- 이 license의 많은 조항은 documentation에만 적용된다. 
+	- 다른 저작물에는 잘 적용되지 않음
+	- 일반적으로 사용되지 않음
+
+- Creative Commons license
+- 
 
 ## Problematic Licenses
 
+몇가지 license는 거의 항상 compliance 문제를 야기하므로 주목할 가치가 있다. 
+- ODbL : copyleft 조건이 있는 "open data" license
+- CPAL : OSI가 승인한 "badgeware" license
+	- badgeware license는 배포사 없는 경우에도 조건이 적용될 수 있으므로 대부분의 회사에 compliance concern을 야기한다. 
+	- 이러한 점에서 AGPL과 유사한 매우 강력한 copyleft license로 간주될 수 있다. 
+	
+> 15. ADDITIONAL TERM: NETWORK USE.
+The term “External Deployment” means the use, distribution, or communication of the Original Code or Modifications in any way such that the Original Code or Modifications may be used by anyone other than You, whether those works are distributed or communicated to those persons or made available as an application intended for use over a network. As an express condition for the grants of license hereunder, You must treat any External Deployment by You of the Original Code or Modifications as a distribution under section 3.1 and make Source Code available under Section 3.2.
 
-
-
-
-
+> https://lwn.net/Articles/243841/
+> "Badgeware" refers to a class of software with licenses requiring that some sort of attribution of its origin be displayed in all copies. An example which has seen much discussion over the last year is SugarCRM, whose license required that every screen carry a 106x23 "Powered by SugarCRM" logo and a copyright notice.
