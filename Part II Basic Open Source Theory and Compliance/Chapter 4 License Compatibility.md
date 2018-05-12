@@ -105,6 +105,30 @@ Figure 4.2는 proprietary licensing에서 전형적인 diligence 문제를 보�
 
 ### “Horizontal” Compatibility Issues
 
+- 그러나 수평적 호환성 (horizontal compatibility)이라고 생각되는 미묘한 문제가 있을 수 있으며, 이는 GPL과 LGPL에서만 일어난다. (GPL과 LGPL만 code가 통합될 수 있는 방법에 제한을 두는 license이기 때문.)
+- GPL과 LGPL의 shorthand rules:
+	- 하나의 program내 어떤 code가 GPL인 경우, GPL로 모두 제공되어야 한다. 
+	- LGPL code는 dynamically linked library로만 다른 code와 하나의 program으로 통합될 수 있다. 
+
+![fig-4.5](https://github.com/hakssung/opensource-for-business-kor/blob/master/img/fig-4.5.png)
+
+Figure 4-5는 horizontal incompatibility로 발생할 수 있는 문제를 보여준다. 
+- copyleft license하의 code는 다른 term으로 재배포될 수 없다. 
+	- 따라서, 어떤 license로 작동할 수 없다. 
+- 이는 어떤 하나의 음식도 모두를 만족시키지 못하는 저녁 식탁과 같다. 
+	- GPL은 다른 사람과 같은 식사를 먹지 않을 뿐만 아니라 같은 테이블에 다른 음식이 존재하는것을 허락하지 않는다. 
+
+![fig-4.6](https://github.com/hakssung/opensource-for-business-kor/blob/master/img/fig-4.6.png)
+
+- 대조적으로, weak copyleft license하에 제공된 software는 같은 program내에 공존할 수 있다. 
+	- 물론 permissive license도 다른 code에 대해 restriction을 두지 않는다. 
+- 따라서, Figure-4.6의 상황은 동작한다.
+	- 모든 license들이 copyleft이지만, weak copyleft이다. 
+	- recipient에게 동시에 licensing term을 전달하는 licensing이 가능할 수 있다. 
+	- 각 component는 자체 license가 적용된다. 
+	- code base 전체로는 하나의 license를 갖는 것이 아니다. 
+	- 이것은 마치 방문자들이 같은 table에 앉았지만, 음식을 share하지 않고,  각자 자신의 음식을 먹는 저녁 table과 같다. 
+
 ### How to Avoid License Bugs
 
 ## Apache 2 and GPL 2
