@@ -131,6 +131,14 @@ Figure 4-5는 horizontal incompatibility로 발생할 수 있는 문제를 보�
 
 ### How to Avoid License Bugs
 
+- 개발자는 자신의 software를 자신이 원하는 term으로 license할 수 있다. 
+- 그러나 licensing을 특이하게 하면 다른 개발자들은 그 software를 다른 project에서는 재사용할 수 없는 상황이 만들어질 수도 있다. 
+	- 예를들어, proprietary나 다른 copyleft component와 동일한 program내에서 포함이 되어야만하는 library를 GPL로 선택하는 것
+
+- 때때로, 이런 option을 선택하는 것은 사용자에게 proprietary license를 사도록 강제하는 방법이다. (dual licensing model)
+	- 이 경우, 개발자는 고의로 license bug 및 해결 경로를 만들어낸다. 
+	- 그러나, 그러한 선택이 분명한 생각없이 이뤄진다면, licensing이 역효과를 일으키고, 단지 문제만 만들어낼 수 있다. 
+
 ## Apache 2 and GPL 2
 
 ## License Proliferation
