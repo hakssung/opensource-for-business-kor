@@ -147,7 +147,7 @@ Figure 4-5는 horizontal incompatibility로 발생할 수 있는 문제를 보�
 - Apache Foundation posted:
 	- FSF의 GPL에 대한 입장을 ASF가 이해한 바는 다음과 같다. : 
 		- explicit patent license를 부여하는 것은 implicit patent license의 무효화를 야기한다. 
-		- explicit patent license를 
+		- revoking explicit patent license (patent 보복조항에 의해 patent를 종료시키는것)은 patent 침해를 주장한 사람이 patent right (Apache-2.0에 의해 부여된 right)을 잃게 한다. (GPL-2.0의 implicit right을 통했다면 보유했을)
 		- revoking that explicit patent license causes the person who is claiming infringement of their patent to lose the patent rights that would otherwise have been attained via the GPL’s implicit rights; 
 		- patent right의 상실은 사용 right의 상실을 의미한다. 
 		- GPL-2.0 section 7은 patent owner가 GPL work내 patent 침해 주장하고, 3rd party가 다른 사람들이 배포하는 것에 restriction을 가할때까지 (즉, 판결 또는 금지 명령이 work에 가해질때까지) 계속해서 GPL로 그 work의 배포를 허용한다. 
