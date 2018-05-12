@@ -131,6 +131,19 @@ Open source license는 주로 두종류의 patent provision을 포함.
 
 ## Permissive Licenses
 
+> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+- BSD에 대한 변호사들의 고민
+	- “source code and binary forms.” : source code와 binary form을 함께 재배포해야하는 것인가? 
+	- formal license grant가 없다
+
+- 하지만, 이들은 심각한 우려 사항은 아님
+	- BSD는 분명한 permissive license
+	- irrevocable (취소할 수 없는) license grant
+
+- open source license는 문맥 내에서 해석해야함
+	- 위와 같은 변호사의 걱정은 큰 그림을 보지 않는것임
+
 ### Apache
 
 ## Miscellaneous Licenses
