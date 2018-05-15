@@ -146,12 +146,10 @@ Figure 4-5는 horizontal incompatibility로 발생할 수 있는 문제를 보�
 
 - Apache Foundation posted:
 	- FSF의 GPL에 대한 입장을 ASF가 이해한 바는 다음과 같다. : 
-		- explicit patent license를 부여하는 것은 implicit patent license의 무효화를 야기한다. 
-		- revoking explicit patent license (patent 보복조항에 의해 patent를 종료시키는것)은 patent 침해를 주장한 사람이 patent right (Apache-2.0에 의해 부여된 right)을 잃게 한다. (GPL-2.0의 implicit right을 통했다면 보유했을)
-		- revoking that explicit patent license causes the person who is claiming infringement of their patent to lose the patent rights that would otherwise have been attained via the GPL’s implicit rights; 
-		- patent right의 상실은 사용 right의 상실을 의미한다. 
-		- GPL-2.0 section 7은 patent owner가 GPL work내 patent 침해 주장하고, 3rd party가 다른 사람들이 배포하는 것에 restriction을 가할때까지 (즉, 판결 또는 금지 명령이 work에 가해질때까지) 계속해서 GPL로 그 work의 배포를 허용한다. 
-		- GPL-2.0 section 6에서는 “You may not impose any further restrictions on the recipients’ exercise of the rights granted herein” 라고 하는데, 이는 patent에는 해당하지 않는다. ("rights granted herein"는 오직 copyright만이기 때문)
+		1. explicit patent license의 granting은 모든 implicit patent license를 무효화시킴
+		2. explicit patent license를 무효화하는 것은 자신의 patent의 침해를 주장한 사람이 GPL의 implicit right을 통해 취득할 수 있는 patent right을 잃게 함. patent right의 상실은 사용권(right to use) 상실을 의미함. 
+			- GPL-2.0 7조에서는 GPL work내 patent 침해를 주장하는 patent owner가 계속해서 work을 GPL로 배포할 수 있게 허용함 (judgement or injunction이 있을때까지) (즉, Apache-2.0에서 patent 침해를 주장하는 patent owner는 더이상 work을 배포할 권리가 없는 것은 GPL보다 restriction을 더 가하는 것임)
+			- GPL-2.0 6조에서는 "You man not impose any further restrictions on the recipients' execise of the rights granted herein"이라고 했는데, "rights granted herein"은 copyright임 (GPL-2.0은 명시적으로 copyright만 허여). patent에는 해당하지 않음. 따라서, patent claim으로 다른사람이 redistribute할 권리에 restriction을 가한다하더라도 이는 6조의 "rights granted herein" (copyright)에 해당하지 않기 때문에 (판결이 내려지기 건까지) patent claim을 제기한 사람이 계속해서 work을 distribute할 수 있음. (-> Apache-2.0의 특허보복조항으로 patent claim을 제기한 사람은 work을 distribute할 수 없음. 즉, GPL보다 restriction을 더 가하는 것임)
 
 
 ## License Proliferation
